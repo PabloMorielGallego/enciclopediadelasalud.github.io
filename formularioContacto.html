@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>FORMULARIO| Enciclopedia Ilustrada de Salud</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="imagenes/logo.jpg" alt="logo" width="300" height="300"><h1> Enciclopedia Ilustrada de la Salud</h1></a>
+        </header>
+
+        <h2>Formulario de Contacto</h2>
+        <p>Los campos que tienen * son obligatorios</p>
+            <form action="paginaRespuesta.html" method="get">
+                <p><label for="asunto">*Asunto:</label><input type="text" name="asunto" id="asunto" required></p>
+                <p><label for="Comentario">*Comentario o pregunta:</label><textarea rows="5" name="Comentario" id="Comentario" required></textarea></p>
+                <p><label for="YoSoy">Yo soy:</label>
+                    <select id="YoSoy">
+                        <option label="paciente">Paciente</option>
+                        <option label = "cientifico">Científico</option>
+					    <option label = "medico">Médico</option>
+					    <option label = "educador">Educador</option>
+					    <option label = "fabricante">Fabricante</option>
+					    <option label = "periodista">Periodista</option>
+                    </select>
+                <fieldset>
+                    <legend> Sexo:</legend>
+                    <p><label for="hombre">Hombre</label><input type="radio" name="sexo" id="hombre" value="hombre"></p>
+                    <p><label for="mujer">Mujer</label><input type="radio" name="sexo" id="mujer" value="mujer"></p>
+                    <p><label for="otro">Prefiero no decirlo</label><input type="radio" name="sexo" id="otro" value="otro"></p>
+                </fieldset>
+                <p><label for="fechaNacimiento"> Fecha de nacimiento:</label><input type="date" name="fechaNacimiento" id="fechaNacimiento"></p>
+                <p> <label for="correoElectronico">Correo electronico:</label> <input type="email" name="correo" id="correoElectronico" placeholder = "ejemplo@gmail.com"></p> 
+			
+                <p> <input type = "checkbox" id ="informacion" name = "informacion"><label for = "informacion">Deseo recibir más información</label></p>
+                <p>	<label for ="envio"> <input type = "submit" id = "envio" value = "Enviar">. </label></p>
+            </form>
+        <p><a href="index.html">Atrás</a></P>
+            
+            <footer class = "piePagina">	
+                Pablo Moriel Gallego y Jaime Verdeguer Guardiola<br>
+                pmg148@alu.ua.es<br>	
+                jvg49@alu.ua.es<br>
+                Universidad de Alicante, España<br>
+                
+             
+            </footer>
+    </body>
+</html>

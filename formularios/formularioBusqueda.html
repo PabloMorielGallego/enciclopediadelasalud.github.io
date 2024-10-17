@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario busqueda | Enciclopedia Ilustrada de la Salud</title>
+        <link href="../css/estilo.css" rel="stylesheet">
+        <link href="../css/estiloform.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="../index.html"><img src="../imagenes/logo.jpg" alt="logo" width="300" height="300"><h1> Enciclopedia Ilustrada de la Salud</h1></a>
+            <h2>Formulario Busqueda</h2>
+            <link href="../css/estilo.css" rel="stylesheet">
+        </header>
+        <nav aria-label="breadcrumb">
+            <p>Estás en: <a href="../index.html">Página Principal</a> > <a href="formularioBusqueda.html">Formulario de Búsqueda</a></p>
+        </nav> 
+        <a href="#articulos-interes" class="saltar-a-contenido">Saltar al formulario</a>
+
+        <h3>Busqueda por Artículo</h3>
+        
+        <main id="articulos-interes">
+        <form action = "respuestaBusqueda.html"  method = "get">
+            <p>Los campos que tienen * son obligatorios</p>
+
+            <p><label for="nombre">*Búsqueda por nombre:</label><input type="text" name="nombre" id="nombre" required></p>
+
+            <p>
+                <label for="sintomas">Síntomas Principales: </label>
+                <textarea name="sintomas" id="sintomas" rows="10" cols="50" placeholder="Escriba aqui los principales sintomas de la enfermedad a buscar"></textarea>
+            </p>
+
+            <p>
+                <label for="descripcion">Descripción de la enfermedad:</label>
+                <textarea name="descripcion" id="descripcion" rows="5" cols="50" placeholder="Describa su enfermedad"></textarea>
+            </p>
+
+            <p>
+                <label for="causas">Causas de la enfermedad:</label>
+                <textarea name="causas" id="causas" rows="5" cols="50" placeholder="Escriba las causas"></textarea>
+            </p>
+
+            <p>
+                <label for="pruebas">Pruebas diagnóstico de la enfermedad: </label>
+                <textarea name="pruebas" id="pruebas" rows="6" cols="50" placeholder="Escriba las pruebas diagnostico que se pueden realizar"></textarea>
+            </p>
+
+            <p>
+                <label for="tratamiento">Tratamiento de la enfermedad: </label>
+                <textarea name="tratamiento" id="tratamiento" rows="5" cols="50" placeholder="Escriba el tratamiento para la enfermedad"></textarea>
+            </p>
+
+            <p><input type="submit" value="Buscar"></p>
+        </form>
+
+        <p><a href="../index.html">Atrás</a></P>
+
+        </main>
+
+            <footer class = "piePagina">	
+                <br>
+                <address>Página realizada por <a href= "mailto:jaimever4@gmail.com">Jaime Verdeguer Guardiola</a>
+                    y <a href= "mailto:pmg148@alu.ua.es">Pablo Moriel Gallego</a>.</address>
+                Universidad de Alicante, España<br>
+                
+             
+            </footer>
+    </body>
+</html>

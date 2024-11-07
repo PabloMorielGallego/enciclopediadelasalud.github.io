@@ -1,0 +1,25 @@
+@import url('estilo.css');
+
+:root {
+    --color-fondo1: #2c2a2a; /* Fondo principal oscuro */
+    --color-fondo2: #1e1e1e; /* Fondo secundario */
+    --color-header1: #275eaf; /* Mantengo los colores oscuros en el header */
+    --color-header2: #1c68c0;
+    --color-formulario-border: #1b5e20; /* Borde de formulario más oscuro */
+    --color-temas-destacados: #263238; /* Temas destacados en tonos oscuros */
+    --color-piedepagina: #212121; /* Pie de página en gris oscuro */
+    --color-apartados: #2a62b4; /* Color de los apartados */
+    --color-apartadosdentro: #ffffff; /* Fondo de los apartados */
+    --color-hover-apartado: #1e88e5; /* Hover en color más vivo */
+    --color-breadcrumb-fondo: #424242; /* Fondo del breadcrumb más oscuro */
+    --color-breadcrumb-texto: #90caf9; /* Texto del breadcrumb en azul claro */
+    --color-breadcrumb-hover: #82b1ff; /* Hover del breadcrumb en un azul más brillante */
+    --color-breadcrumb-separador: #bdbdbd; /* Separador en gris medio */
+    --color-tabla-fondo: #333; /* Fondo de tabla oscuro */
+    --color-tabla-par: #424242; /* Filas pares en gris más claro */
+    --color-tabla-impar: #383838; /* Filas impares en gris oscuro */
+    --color-tabla-hover: #616161; /* Hover en las filas de la tabla */
+    --color-saltar-contenido-fondo: #424242; /* Fondo del salto de contenido */
+    --color-saltar-contenido-texto: #ffffff; /* Texto del salto de contenido */
+    --color-texto-normal: #fdfdfd;
+}
